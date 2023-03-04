@@ -1,0 +1,121 @@
+0. Dividing days
+    4 days in a week -> Random practce
+    3 days in a week -> Algorithm/topic based practice
+
+1. Learn an algorithm
+    -> Solve problems of that particular algorithm from Codeforces, SPOJ & Hackerrank
+
+2. Order of learning algorithms
+    -> Pattern printing - (Improving Logic & Understanding loops)
+    -> Analysis of time complexity
+    -> Linear Search
+    -> Implementation of circular array (Articles at gfg)
+    ->  Palindrom & Numbers (perfect, armstrong, primes, catalan...) 
+    -> Simple Hashing Problems
+    -> Prefix Sum (Both 1D & 2D)
+    -> Sliding Window Technique
+    -> Binary Search 
+    -> GCD (Eucledean & Extended_Eucleadean)
+    -> Linear Diophantine Equation
+    -> Primes, Sieve, Segmented Sieve, Prime Factorization in O(log_N)
+    -> Euler Totient Function (Hackerearth)
+    -> Fermat Little Theorem (Hackerearth)
+    -> Wilson's Theorem (Hackerearth)
+    -> Finding x^n in log_N
+    -> Modular Arithmatic
+    -> Modular Inverse
+    -> Modular Exponetietion
+    -> Chinese Remainder Theorem
+    -> Factorial modulo mod
+    -> Inclusion Exclusion Principle
+    -> Finding nCr & nPr for constant Queries
+    -> Combinatorics (Hackerearth, Codeforces (Don't solve DP))
+    -> Basic sorting algorithms
+    -> Do problem which are constructive & have swapping terms
+    -> SOlve 2-pointer Problems
+    -> Bit Manipulation (Left Shift, Right Shift, XOR, OR, AND, set bit, LSB, MSB)
+        => Learn from Hackerearth or Coading Blocks
+        => Solve from Hackerearth
+    -> Power Set of a given array or string using BIT
+    -> Number of subarrays with XOR as zero (Not a specific algorithm, but must do)
+    -> Greedy algorithms
+    -> Kadane's Algorithm
+    -> Job Sequencing & Activity Selection Problems
+    -> Recursion (Factorial, Sum of digits,  Binary Search, Modulo Exponetietion) (LeetCode, gfg)
+        => Finding subarray with given Sum
+    -> Merge Sort, Quick Sort (Count inversion doing Merge Sort)
+    -> Backtracking (Sudoko & N Queen)
+    -> Meet in the Middle
+    -> Devide & Coquer (Codeforces)
+    -> Next greater/smaller using stack
+        => Problems related to paranthesis
+        => Leargest Rectengular Area in Histogram
+    -> Heap (Priority_Queue)
+
+    ADVANCED ALGORITHMS
+    -> String algorithms
+    -> Hashing on string (CP Algorithm) (SPOJ, Codeforces)
+    -> Rabin Karp Algorithm (CP Algorithm)  
+    -> Prefix Function (CP Algorithm)
+    -> KMP Algorithm (CP Algorithm)
+    -> Z-Function (CP Algorithm)
+    -> Manachers' Algorithm (CP Algorithm)
+    => Do 40-50 problems
+
+    -> Tree/Graph Representation
+    -> DFS/BFS
+    -> Diameter/Height/Level
+    -> Euler Tour of Tree
+    -> Finding LCA using Euler Tour (Segment Tree needed (may skip))
+    -> Finding LCA using Binary Lifting
+    -> Distance between two nodes
+        => Subtree problems, SPOJ, D/E Codeforces
+    -> Graph
+    -> Connected components
+    -> Topological Sort
+    -> Cycle Detection in Graph
+    -> Bipartite Check
+    -> SCC using Kosaraju's Algorithm
+    -> Dijkstra's Algorithm
+    -> Bellman Ford Algorithm
+    -> Floyd Wharshall
+        => Solve 40-50 problems from (SPOJ, Codeforces, Hackerearth) 
+        => Learn from:- Hackerearth, CP Algorithm
+    -> Bridges, Articulation points
+    -> MST Prims' & Kruskal
+    -> 0/1 BFS (CP Algorithm)
+    -> Bridges Online (CP Algorithm)
+
+    -> Dynamic Programming (Never Ever do iterative way)
+        => Start with recursion & try to memoize the solutions
+        => Learn memoization (gfg)
+        => Solve Problems (LCS, Knapsack) 
+        => Solve Atcoder Educational Contest on DP (Solve all the 26 problems)
+        => Solve Problems from SPOJ
+        => Solve Codeforces (Google:- Dynamic Programming Codeforces & solve from the blog)
+    -> Digit Dynamic Programming (Codeforces Blog)
+    -> DP with bitmask (Hackerearth)
+    -> DP on trees (gfg, rachit jyan vedios)
+    -> SOS DP (Codeforces)
+        => Learn 500 problem
+    -> Disjoin Set & Optimizations (CP Algorithm)
+        => Offline Queries (Colorful array- SPOJ)
+    -> Kruskal Algorithm
+    -> Sparse Table
+    -> Fenwick Tree (Read about range update trick also) (Striver)
+    -> Binary Lifting with Fenwick Tree 
+    -> Matrix Exponetietion
+    -> Sqrt Decomposition Technique (gfg, CP Algorithms, Codeforces blog)
+    -> Update & Queries
+    -> Mo's Algorithm (Codeforces blog)
+        => Powerful Array (Codeforces)
+    -> Mo's Algorithm on trees
+    -> Segment Trees
+    -> Lazy Propagation on Segment Trees
+
+    Optional:-
+    -> Sprague-Grundy Theorem (Gaurav Sir vedios)
+    -> Flows & related algorithm (CP Algorithm)
+    -> Heavy Light Decomposition (Blog by Anudeep)
+    -> Covex Hull Algorithm
+    -> FFT/NTT
