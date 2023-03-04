@@ -10,7 +10,7 @@
     -> Analysis of time complexity
     -> Linear Search
     -> Implementation of circular array (Articles at gfg)
-    ->  Palindrom & Numbers (perfect, armstrong, primes, catalan...) 
+    ->  Palindrome & Numbers (perfect, armstrong, primes, catalan...) 
     -> Simple Hashing Problems
     -> Prefix Sum (Both 1D & 2D)
     -> Sliding Window Technique
