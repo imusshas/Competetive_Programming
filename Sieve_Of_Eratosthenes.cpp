@@ -7,6 +7,7 @@ class PRIMES {
 	private:
 	static const ll N=2e6+13;
 	bool siv[N+1]={false};
+	
 	public:
 	vector<ll> primes;
 	void sieve() {
@@ -26,7 +27,7 @@ class PRIMES {
 	}
 
  
-  public: 
+  	public: 
 	vector<ll> segmented_sieve(ll left, ll right) { 
     vector<ll> segmented_primes;
 		ll L=left, R=right;
@@ -56,7 +57,7 @@ class PRIMES {
 
 	public:
 	vector<ll> prime_factor(ll N) {
-  vector<ll> pf;
+  	vector<ll> pf;
 		ll i=0;
 		for(i=0; i<primes.size() && primes[i]*primes[i]<=N; i++) {
 			while(N%primes[i]==0) {
@@ -69,6 +70,21 @@ class PRIMES {
 		return pf;
 	}
 
+	private:
+	static const ll dN=1e6+1e5;
+	
+	public:
+	int difsiv[dN+1]={0};
+	void difsieve() {
+		ll i, j;
+		for(i=2; i<=dN; i+=2) difsiv[i]++;
+		for(i=3; i*i<=dN; i+=2) {
+			if(!difsiv[i]) {
+				for(j=i; j<=dN; j+=i) difsiv[j]++;
+			}
+		}
+	}
+
 };
 
 int main() 
@@ -79,7 +95,9 @@ int main()
 	vector<ll> ans, pfactors;
 	ans=segsiv.segmented_sieve(L, R);
 	pfactors=segsiv.prime_factor(36);
-  for(auto it:
-	for(auto it: pfactors) cout<<it<<" ";
-	cout<<"\n";
+  	// for(auto it: ans) cout<<it<<" "; cout<<'\n';
+	// for(auto it: pfactors) cout<<it<<" "; cout<<"\n";
+
+	segsiv.difsieve();
+	//cout<<segsiv.difsiv[30]<<"\n";
 }
